@@ -10,6 +10,7 @@ html {
   padding: 0;
   min-height: 100%;
   width: 100vw;
+  overflow-x: hidden;
   background: #e6e6e6;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
@@ -35,7 +36,7 @@ html {
 }
 
 .header__header-content .big-text {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   padding: 0.5rem 0 .7rem 0;
 }
@@ -66,7 +67,7 @@ html {
 
 .box {
   width: 20rem;
-  height: 12rem;
+  height: 10rem;
   padding: 1rem;
   box-shadow: 7px 10px 15px rgba(5, 5, 5, 0.4);
   border-radius: 7px;
@@ -127,9 +128,9 @@ html {
 }
 
 .image {
-  width: 17%;
+  width: 15%;
   position: absolute;
-  bottom: 20px;
+  bottom: 17px;
   right: 25px;
 }
 
